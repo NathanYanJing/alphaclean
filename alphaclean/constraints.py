@@ -236,6 +236,7 @@ class CellEdit(Constraint):
         ttokens = set(target.lower().split())
         rtokens = set(ref.lower().split())
 
+
         sim = []
         for t in ttokens:
             for r in rtokens:

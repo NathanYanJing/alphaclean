@@ -1,4 +1,4 @@
-from alphaclean.ops import *
+import ops
 import distance
 import numpy as np
 from sklearn.linear_model import SGDClassifier 
